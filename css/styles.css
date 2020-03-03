@@ -9,8 +9,9 @@
     margin: 10px;
 }
 
-#inputDiv {
-    background-color: grey;
+.container{
+    background-color: lightblue;
 }
+
 
 /* use bootstrap img-thumbnail */
