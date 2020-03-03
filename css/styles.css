@@ -3,3 +3,14 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.flex-item{
+    width: 30%;
+    margin: 10px;
+}
+
+#inputDiv {
+    background-color: grey;
+}
+
+/* use bootstrap img-thumbnail */
