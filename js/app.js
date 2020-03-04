@@ -16,6 +16,7 @@ $("#generate").on("click", function(){
         success: function(result, status){
             alert("success");
             console.log(result);
+            console.log(result.message[0]);
             for ( var i in result.message ){
                 var img = "<img class='img-thumbnail' src='"+result.message[i]+">";
                 var div = "<div class='flex-item>"+img+"</div>";
